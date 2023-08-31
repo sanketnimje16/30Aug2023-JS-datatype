@@ -1,0 +1,11 @@
+div#box2{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    text-align: center;
+    line-height: 400px;
+    color: black;
+    font-size: 2em;
+    border-radius: 200px;
+    border-top-left-radius: 300px;
+}

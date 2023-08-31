@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript Datatypes and Comparison Operators</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+            div#box1{
+                width: 400px;
+                height: 400px;
+                background-color: red;
+                text-align: center;
+                line-height: 400px;
+                color:#fff;
+                font-size: 2em;
+                border-radius: 8px;
+                border-top-right-radius: 50px;
+
+            }
+        </style>
+        <script>
+            //window.alert('JS code is running inside head tag'); //single line comment
+        </script>
+    </head>
+    <body>
+        <div id="box1">Sanket</div>
+        <div id="box2">Nimje</div>
+        <div id="box3" style="width: 400px;height: 400px;background-color: pink;color: greenyellow;text-align: center;font-size: 2em;line-height: 400px;">Raisoni</div>
+        <div id="box4"></div>
+        <div id="box5"></div>
+        <script src="./js/script.js" ></script>
+        <script>
+            console.log("JS code is running inside body");
+        </script>
+        <script>
+            var x = 10; //variable declare and initialization
+            let y = "sanket";
+            // 1st way to show output 
+            console.log(typeof x);
+            // second way to show output
+            alert(typeof y);
+            //concatination
+            console.log(y+x);
+            //3rd way to show js output
+            document.getElementById("box5").innerHTML = typeof x;
+            // 4th way to show js output
+            document.write('<h1>'+typeof x+'</h1>');
+            document.write('<h1>'+y+'</h1>');
+
+            
+        </script>
+    </body>
+</html>
